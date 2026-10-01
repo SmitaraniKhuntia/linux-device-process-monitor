@@ -1,0 +1,28 @@
+# C++ executables
+monitor
+process_monitor
+process_watchdog
+device_monitor
+system_monitor
+
+# C++ object files
+*.o
+
+# Linux kernel module build files
+*.ko
+*.mod
+*.mod.c
+*.order
+*.symvers
+Module.symvers
+modules.order
+. *.cmd
+
+# Kernel build directory
+driver/.tmp_versions/
+
+# Temporary files
+*~
+*.swp
+driver/.*.cmd
+driver/*.cmd

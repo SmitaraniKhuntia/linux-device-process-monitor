@@ -1,26 +1,30 @@
 #include <iostream>
 #include <cstdlib>
+#include "driver_interface.h"
 
 using namespace std;
 
-int main() {
+int main()
+{
     int choice;
 
-    while (true) {
-        cout << "\n====================================" << endl;
-        cout << "   Linux Device & Process Monitoring" << endl;
-        cout << "====================================" << endl;
+    while (true)
+    {
+        cout << "\n===================================" << endl;
+        cout << "    Linux Device & Process Monitoring" << endl;
+        cout << "===================================" << endl;
         cout << "1. View Running Processes" << endl;
         cout << "2. Monitor a Process" << endl;
         cout << "3. Monitor Device Events" << endl;
-	cout << "4. System Resource Monitor" << endl;
-	cout << "5. Exit" << endl;
-        
-        cout << "Enter your choice: ";
+        cout << "4. System Resource Monitor" << endl;
+        cout << "5. Kernel Driver Test" << endl;
+        cout << "6. Exit" << endl;
 
+        cout << "Enter your choice: ";
         cin >> choice;
 
-        switch (choice) {
+        switch (choice)
+        {
             case 1:
                 system("./process_monitor");
                 break;
@@ -32,10 +36,16 @@ int main() {
             case 3:
                 system("./device_monitor");
                 break;
-	    case 4:
+
+            case 4:
                 system("./system_monitor");
                 break;
+
             case 5:
+                testDriver();
+                break;
+
+            case 6:
                 cout << "Exiting..." << endl;
                 return 0;
 
