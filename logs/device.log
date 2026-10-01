@@ -1,0 +1,32 @@
+[DEVICE EVENT]
+change@/devices/pci0000:00/0000:00:04.0/usb1/1-4/1-4.1/1-4.1:1.0/host0/target0:0:0/0:0:0:0/block/sr0
+[DEVICE EVENT]
+change@/devices/pci0000:00/0000:00:06.0/virtio2/block/vda
+[DEVICE EVENT]
+change@/devices/pci0000:00/0000:00:06.0/virtio2/block/vda/vda1
+[DEVICE EVENT]
+change@/devices/pci0000:00/0000:00:06.0/virtio2/block/vda/vda2
+[DEVICE EVENT]
+change@/devices/virtual/block/loop0
+[DEVICE EVENT]
+change@/devices/virtual/block/loop1
+[DEVICE EVENT]
+change@/devices/virtual/block/loop10
+[DEVICE EVENT]
+change@/devices/virtual/block/loop11
+[DEVICE EVENT]
+change@/devices/virtual/block/loop2
+[DEVICE EVENT]
+change@/devices/virtual/block/loop3
+[DEVICE EVENT]
+change@/devices/virtual/block/loop4
+[DEVICE EVENT]
+change@/devices/virtual/block/loop5
+[DEVICE EVENT]
+change@/devices/virtual/block/loop6
+[DEVICE EVENT]
+change@/devices/virtual/block/loop7
+[DEVICE EVENT]
+change@/devices/virtual/block/loop8
+[DEVICE EVENT]
+change@/devices/virtual/block/loop9
